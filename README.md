@@ -1,5 +1,3 @@
-<img width="718" height="366" alt="image" src="https://github.com/user-attachments/assets/5ce43caa-b55b-4b4f-9a87-e0dee7790e26" /># Human Face Reconstruction Using PCA (Eigenfaces)
-
 This project explores how computers can learn, simplify, and reconstruct human faces using a mathematical tool called Principal Component Analysis (PCA). The program trains on a baseline database of human portraits to extract primary facial blueprints—known as **Eigenfaces**—and uses those blueprints to recreate a completely new custom smartphone selfie.
 
 ---
@@ -58,16 +56,16 @@ The program imports a custom personal smartphone selfie. Just like the training 
 <img width="550" height="539" alt="image" src="https://github.com/user-attachments/assets/8b868dce-f4d0-49e3-a632-bf09aae166c7" />
 
 ### 5. Projection & Linear Reconstruction
+
 The processed selfie vector is projected directly into the low-dimensional Eigenface space. The computer calculates exactly how much weight to give to each baseline Eigenface to match your face. Finally, it performs a matrix multiplication to reconstruct the face from those weights and displays the final result side-by-side with your original selfie for a clear visual comparison.
-<img width="739" height="423" alt="image" src="https://github.com/user-attachments/assets/c4f009e3-8497-44b9-8d96-9928dea1e7d2" />
+<img width="718" height="366" alt="image" src="https://github.com/user-attachments/assets/5ce43caa-b55b-4b4f-9a87-e0dee7790e26" /># Human Face Reconstruction Using PCA (Eigenfaces)
+
+
 ---
 
 ## Visual Comparison Matrix
 
-![Uploading image.png…]()
-
-
-
+<img width="739" height="423" alt="image" src="https://github.com/user-attachments/assets/c4f009e3-8497-44b9-8d96-9928dea1e7d2" />
 ---
 
 ## Tech Stack & Core Libraries
